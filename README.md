@@ -42,7 +42,7 @@ Every page tool takes an optional `tab`. Without it, it uses the active tab of t
 Requires macOS and Node.js 18 or newer.
 
 ```bash
-git clone https://github.com/<you>/safari-browser-mcp.git
+git clone https://github.com/riguillen1972/safari-browser-mcp.git
 cd safari-browser-mcp
 npm install
 ```
