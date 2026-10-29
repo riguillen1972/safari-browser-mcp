@@ -1,0 +1,36 @@
+{
+  "name": "safari-browser-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that lets Claude control Safari on macOS — a Claude-in-Chrome-style browser agent for Safari.",
+  "type": "module",
+  "bin": {
+    "safari-browser-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "os": [
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "safari",
+    "claude",
+    "browser",
+    "automation",
+    "macos"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}
